@@ -1,0 +1,8 @@
+import turtle
+t = turtle.Turtle()
+t.pencolor("magenta")
+t.pensize(5)
+n = 10
+while n <=60:
+    t.circle(n)
+    n=n+10
